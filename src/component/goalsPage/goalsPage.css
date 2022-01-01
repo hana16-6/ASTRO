@@ -1,0 +1,15 @@
+:root {
+  --brink-pink: #ff7d85;
+}
+.goals {
+  background-color: rgba(133, 204, 198, 0.15);
+}
+.brink-pink-text {
+  color: var(--brink-pink);
+}
+.text-color {
+  color: #72868a;
+}
+.h-color {
+  color: #013e5a;
+}

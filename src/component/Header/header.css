@@ -1,0 +1,92 @@
+:root {
+  --brink-pink: #ff7d85;
+}
+header {
+  background-image: url("../../images/bg7.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.navList-color,
+h1 {
+  color: #013e5a !important;
+}
+h1 {
+  font-weight: 700;
+  font-style: italic;
+}
+.text-color-header {
+  color: #72868a;
+}
+.brink-pink {
+  background-color: var(--brink-pink);
+  color: white;
+}
+.btn {
+  border: none;
+}
+.btn-hover,
+.btn2-hover {
+  position: relative;
+  z-index: 3;
+  transition: 0.8s;
+}
+.btn-hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  border-radius: 0.25rem;
+  background-color: var(--brink-pink);
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn-hover:hover {
+  color: white !important;
+}
+.btn-hover:hover::before {
+  height: 100%;
+}
+.btn2-hover .btn-link {
+  color: white;
+  transition: 0.8s;
+}
+.btn2-hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.25rem;
+  background-color: var(--brink-pink);
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn2-hover:hover:before {
+  height: 0;
+}
+.btn2-hover:hover .btn-link {
+  color: #013e5a !important;
+}
+.video-pop-up {
+  background-color: white;
+  margin: 50px auto;
+  min-height: 500px;
+  border-radius: 10px;
+  max-width: 900px;
+  min-width: 900px;
+}
+@media only screen and (min-width: 576px) {
+}
+@media only screen and(min-width: 768px) {
+}
+.videoo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}

@@ -1,0 +1,75 @@
+:root {
+  --brink-pink: #ff7d85;
+}
+.brink-pink-text {
+  color: var(--brink-pink);
+}
+
+p {
+  font-size: 15px;
+}
+* {
+  box-sizing: border-box;
+}
+h2:after {
+  content: "";
+  display: block;
+  width: 3.5em;
+  height: 0.1em;
+  font-size: 1rem;
+  margin: 0.8em auto 0.8em;
+  border-radius: 20px;
+  background-color: #ff4752;
+}
+.tool_card {
+  border: 0;
+  border-radius: 20px;
+  background: #b9fde6;
+  height: 18rem;
+}
+.tool_card h6 {
+  font-weight: 700;
+}
+.tool_card figure {
+  margin-top: -4rem;
+  height: 6.5rem;
+}
+.tool_card2 {
+  background-color: #f9cffe;
+}
+.tool_card3 {
+  background-color: #feecc3;
+}
+.tool_card4 {
+  background-color: #c7fdcd;
+}
+.text-color-gray {
+  color: #72868a;
+}
+.header-color {
+  color: #013e5a;
+  font-style: italic;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .tool_card h6 {
+    font-size: xx-large;
+  }
+  .tool_card h6 {
+    font-size: xx-large;
+  }
+  .tool_card p {
+    font-size: x-large;
+  }
+  .tool_card {
+    height: auto;
+    height: 21rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  /* .tool_card{
+        height: 22rem;
+    } */
+}

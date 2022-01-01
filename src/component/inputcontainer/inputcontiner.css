@@ -1,0 +1,26 @@
+.add{
+    width: 100%;
+    box-shadow: none !important;
+    opacity: 0.8;
+    background-color: #eee !important;
+}
+.add:hover{
+     opacity: 1;
+     background-color:skyblue !important;
+     transition:all 1s;
+     padding-top: 0.3em;
+     padding-bottom: 0.3em;
+    
+    
+    
+}
+.clear-icon{
+
+    padding: 0.5em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.clear-icon:hover{
+    cursor: pointer;
+    background-color: rgba(173, 216, 230,0.3);
+}

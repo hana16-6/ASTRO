@@ -1,0 +1,160 @@
+.header-section{
+background-color: rgba(153, 245, 237,0.2);
+}
+.header-content{
+    /* background-color: brown; */
+}
+.header-h{
+  color: rgba(68, 47, 143, 1);
+    padding-left: 1em;
+}
+.header-p{
+    font-size: 1.1rem;
+    color: rgba(119, 117, 117, 0.7);
+    padding: 1em 2.5em 1em 2.5em;
+    line-height: 1.8em;
+/* color: #6a6e6e33; */
+}
+.header-btn{
+    background-color:  #ff7d85;
+    transition: all 0.8s;
+    color: whitesmoke;
+    width: 6em;
+    font-size: 1.2rem;
+    padding: 0.3em;
+    border: none;
+    margin-top: 0.5em;
+    margin-left: 2.2em;
+}
+.header-btn:hover{
+    background-color: transparent;
+    color: rgba(119, 117, 117, 0.7);;
+    border: 1px solid rgba(119, 117, 117, 0.7);;
+}
+.kanban-team{
+/* color: #b5ecf0; */
+}  
+.kanban-team h2{
+    color: rgb(41, 20, 117);
+}
+.kanban-team p{
+    line-height: 1.5em;
+    text-align: center;
+    padding: 2em;
+    font-size: 1.1rem;
+    color: rgba(119, 117, 117, 0.9);
+    font-weight: 500;
+}
+.kanban-is-board-section{
+/* background-color: #749795; */
+margin-top: 7.5em;
+
+}
+.kanban-is-content {
+/* background-color: rosybrown; */
+}
+.kanban-is-content h3{
+    width: 90%;
+    padding: 1em;
+    padding-bottom: 0.5em;
+    color: rgb(41, 20, 117);
+    
+ 
+}
+.kanban-is-content p{
+    width: 80%;
+    padding: 2em;
+    line-height: 1.5em;
+    font-size: 1.1rem;
+    color: rgba(119, 117, 117, 0.9);
+    font-weight: 500;
+}
+.video-kanban{
+    object-fit: cover;
+    width: 100%;
+    height: 30rem;
+
+}
+.video-header h3{
+    color:rgb(41, 20, 117); 
+    display: inline-block;
+    width: 75%;
+    font-size: 2.8rem;
+}
+.arrow{
+    display: inline-block;
+    width: 5em;
+    margin-left: -5em;
+}
+@media only screen and (max-width: 775px) {
+    .arrow{
+    display: none;
+    }
+   }
+
+@media only screen and (max-width: 992px) {
+    .arrow{
+        display: none;
+    }
+}
+.column{
+    /* background-color: sandybrown; */
+    height: 30rem;
+    margin: 0.3em;
+}
+.why-div{
+    width: 50%;
+    margin: 1em auto;
+    font-size: 3rem;
+    text-align: center;
+    color:rgb(41, 20, 117); 
+
+}
+.features-section{
+    margin-top: 10em;
+    padding: 1em;
+    background-color: rgba(255, 235, 205,0.3);
+}
+.feature{
+    padding: 1.5em;
+    text-align: center;
+    
+}
+.feature h5{
+    color:rgb(41, 20, 117); 
+    padding: 0.5em;
+}
+.feature p{
+    color: rgba(119, 117, 117, 0.9);
+    font-weight: 500;
+    text-align: center;
+}
+.trans{
+    width:15em;
+
+}
+@media only screen and (max-width: 775px) {
+    .trans{
+    
+        margin: auto;
+    }
+   }
+   @media only screen and (max-width: 992px) {
+    .trans{
+        margin: auto;
+    }
+}  
+.opti{
+    width: 10em;
+}
+@media only screen and (max-width: 775px) {
+    .opti{
+        
+        margin: auto;
+    }
+   }
+   @media only screen and (max-width: 992px) {
+    .opti{
+        margin: auto;
+    }
+}   

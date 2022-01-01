@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-card {
+  height: 10rem;
+}
+@media only screen and (max-width: 772px) {
+  .body-card {
+    height: 10rem;
+  }
+}
+
+.feature-card {
+  border: transparent;
+  transition: all 0.6s;
+}
+@media only screen and (max-width: 772px) {
+  .feature-card {
+    background-color: rgba(34, 223, 255, 0.2);
+    margin: 0.5em;
+  }
+}
+.feature-card:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #fff;
+  transform: scale(1.05);
+}
+.team-header {
+  text-align: center;
+}
+.team-header h3 {
+  color: rgba(2, 56, 90, 0.8);
+  font-style: italic;
+  font-weight: 500;
+}
+.team-header h3:after {
+  content: "";
+  display: block;
+  width: 3.5em;
+  height: 0.1em;
+  font-size: 1rem;
+  margin: 1em auto 1em;
+  border-radius: 20px;
+  background-color: #ff4752;
+}
+@media only screen and (max-width: 772px) {
+  .icon-row {
+    /* background-color: brown; */
+    width: 80%;
+    margin: auto;
+  }
+}
+.link-card {
+  text-decoration: none;
+}
+.col-p {
+  padding: 0.1em;
+}
+.p-card {
+  color: rgb(7, 110, 170);
+
+  margin: 0;
+  padding: 0;
+}
+.col-icon {
+  padding: 0.2em;
+}
+.card-icon {
+  width: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+.text-card {
+  font-size: 0.8rem;
+  width: 85%;
+  margin: 1em auto;
+  word-wrap: break-word;
+  color: #02385acc;
+  line-height: 1rem;
+  text-align: center;
+}
+.features-p {
+  font-size: 1rem;
+  width: 55vw;
+  min-height: 1.5;
+  margin: auto;
+  color: #72868a;
+}

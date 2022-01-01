@@ -1,0 +1,64 @@
+
+.note{
+    background-color: #eee;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    padding: 1rem;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.note-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.notes-list{
+    display: grid;
+    grid-gap:1rem;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.note.new{
+    background-color: #67d7cc;
+}
+textarea{
+    border: transparent;
+    resize: none;
+    background-color: #67d7cc;
+}
+textarea :focus{
+outline: transparent;
+}
+.save{
+    background-color: #e1e1e1;
+    border: transparent;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+
+}
+.save:hover{
+    background-color: #ededed;
+    cursor: pointer;
+}
+.delete-icon{
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color:rgb(233, 233, 233) ;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 1.5em;
+}
+.search input{
+    border: transparent;
+    background-color:rgb(233, 233, 233) ;
+
+}
+.search input :focus{
+    outline: transparent;
+}

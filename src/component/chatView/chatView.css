@@ -1,0 +1,15 @@
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f1f4ff;
+  border-radius: 20px;
+}
+.current-user-profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.text-color {
+  color: #013e5a;
+}

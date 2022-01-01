@@ -1,0 +1,64 @@
+.header-priority{
+    background-color: rgba(133, 204, 198, 0.1);
+}
+.priority{
+    padding: 2em;
+}
+.priority h1{
+    color: rgba(68, 47, 143, 1);    
+ padding: 0.5em;
+ width: 80%;
+}
+.priority p{
+    line-height: 1.5em;
+    padding: 0.5em;
+    font-size: 1.1rem;
+    color: rgba(119, 117, 117, 0.9);
+
+}
+.priority-intro{
+    margin: 5em;
+    margin-bottom: 5em;
+    color: rgba(68, 47, 143, 1);    
+     text-align: center;
+}
+
+@media only screen and (max-width: 775px) {
+  .priority-intro{
+      margin: auto;
+      margin-bottom: 0;
+      background-color: brown;
+      text-align: center;
+  }
+  }
+.priority-content-section{
+    padding: 1em;
+}
+.priority-video{
+    width: 40rem;
+    margin: auto;
+    /* height: 100rem; */
+}
+@media only screen and (max-width: 775px) {
+   .priority-video{
+       display: none;
+   }
+  }
+.priority-content{
+    margin-top: 8em;
+    
+}
+.priority-content h3{
+    color: rgba(68, 47, 143, 1);    
+    text-align: center;
+    background-color: rgba(153, 245, 237,0.1);
+}
+.priority-content p{
+    line-height: 1.5em;
+    text-align: center;
+    padding: 2em;
+    background-color: rgba(255, 235, 205,0.3);
+    font-size: 1.1rem;
+    color: rgba(119, 117, 117, 0.9);
+    font-weight: 500;
+}

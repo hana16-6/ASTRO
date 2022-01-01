@@ -1,0 +1,47 @@
+.item-style {
+  padding: 60px;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+  border-radius: 45px;
+  z-index: 2;
+}
+.item-style span {
+  font-size: 40px;
+  font-weight: 700;
+  display: block;
+  margin-top: -5px;
+}
+.item1 {
+  background-image: url("../../images/first-plan-bg.png");
+}
+.item2 {
+  background-image: url("../../images/second-plan-bg.png");
+}
+.item3 {
+  background-image: url("../../images/third-plan-bg.png");
+}
+.plan li {
+  color: #7a7a7a;
+  margin-bottom: 20px;
+}
+.main-blue-button-hover a {
+  display: inline-block;
+  background-color: #03a4ed;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+  transition: all 0.3s;
+}
+.main-blue-button-hover:hover a {
+  background-color: #ff7d85;
+}
+.text-pro {
+  color: #ff7d85;
+}
+.pricing-header {
+  color: #02385acc;
+}

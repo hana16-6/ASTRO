@@ -1,0 +1,17 @@
+.manage {
+  background-image: linear-gradient(to right, #b8eaf5, #b9fde6);
+  height: 11rem;
+}
+.manage h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #013e5a ;
+}
+.btn2-hover:hover .btn-link {
+  color: #013e5a !important;
+}
+@media only screen and (max-width: 768px) {
+  .manage h3 {
+    font-size: x-large !important;
+  }
+}

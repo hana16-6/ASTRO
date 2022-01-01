@@ -1,0 +1,10 @@
+.childCard {
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 200px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    right: 100px;
+  }
+  

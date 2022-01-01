@@ -1,0 +1,79 @@
+.notifi-section{
+    background-color: rgba(133, 204, 198, 0.15);
+      padding: 2em;
+}
+.notifi-section h1{
+    color: rgba(68, 47, 143, 1); 
+    font-size: 3.7rem;   
+}
+
+.img-header{
+    width: 30em;
+    
+}
+.notifi-content{
+    margin-top: 5em;
+}
+.notifi-content h2{
+    color: rgba(68, 47, 143, 1);    
+     text-align: center;
+
+}
+.notifi-content p{
+    line-height: 1.5em;
+    padding: 0.5em;
+    margin-top: 2em;
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    color: rgba(104, 103, 103, 0.9);
+}
+.noti-content{
+    margin-top: 10em;
+}
+.noti-content h3{
+    color: rgba(68, 47, 143, 1);    
+    text-align: center;
+    margin-bottom: 2em;
+}
+.height{
+    height: 15rem;
+    margin-top: 2em;
+    /* background-color: rgb(153, 161, 158); */
+}
+.heading{
+    line-height: 1.5em;
+    padding: 0.5em;
+    margin-top: 2em;
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    color: rgba(104, 103, 103, 0.9);
+}
+.footer-notifi{
+    margin-top: 10em;
+    padding: 2.5em;
+    background-color: rgba(255, 235, 205,0.3);
+}
+.footer-notifi h3{
+    color: rgba(68, 47, 143, 1);    
+    text-align: center;
+    margin-bottom: 2em;
+}
+@media only screen and (max-width: 775px) {
+    .priority-video{
+        display: none;
+    }
+   }
+.footer-notifi p{
+    line-height: 1.5em;
+    padding: 0.5em;
+    margin-top: 2em;
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    color: rgba(104, 103, 103, 0.9);
+}
